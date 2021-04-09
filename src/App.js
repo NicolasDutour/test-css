@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import tree from './images/tree.png'
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className="menu">
+        <div className="menu-card">
+          <div className="menu-image-container">
+            <img src={tree} alt="tree" />
+          </div>
+          <h3>texte</h3>
+        </div>
+      </div>
+
+      <div className="main">
+        <div className="main-card">
+          <div className="main-image-container">
+            <img src={tree} alt="tree" />
+          </div>
+          <h3>texte</h3>
+        </div>
+      </div>
+
     </div>
   );
 }

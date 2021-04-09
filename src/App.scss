@@ -1,0 +1,58 @@
+.App {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 20% auto;
+  grid-template-rows: auto;
+
+  .menu {
+    border-right: 1px solid black;
+
+    .menu-card {
+      background-color: red;
+      padding: 10px;
+      margin: 10px auto 0 auto;
+      border-radius: 10px;
+      width: 12vw;
+
+      .menu-image-container {
+        background-color: rgb(55, 150, 194);
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      h3 {
+        background-color: greenyellow;
+      }
+    }
+  }
+
+  .main {
+    border-right: 1px solid black;
+
+    .main-card {
+      background-color: red;
+      padding: 10px;
+      margin: 10px auto 0 auto;
+      border-radius: 10px;
+      width: 25vw;
+
+      .main-image-container {
+        background-color: rgb(55, 150, 194);
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      h3 {
+        background-color: greenyellow;
+      }
+    }
+  }
+}
